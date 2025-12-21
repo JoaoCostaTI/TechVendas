@@ -58,9 +58,9 @@ class BancoDeDados():
         self.conexao.commit()
         self.desconectar()
 
-
+'''
 #Testando a classe Banco de Dados
 if __name__ == "__main__":
     banco = BancoDeDados('techvendas.db')
     banco.criar_tabelas()
-
+'''
