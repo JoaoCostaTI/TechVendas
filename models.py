@@ -47,8 +47,3 @@ class ItemVenda:
         self.quantidade = quantidade
         self.valor_unitario = valor_unitario
 
-try:
-    p1 = Produto('Batata', -9.99, 10)
-    print(p1)
-except ValueError as e:
-    print(e)
